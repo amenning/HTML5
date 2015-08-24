@@ -1,0 +1,14 @@
+/*
+#tuna{color:red;}  has to have id of tuna
+.tuna{color:blue;}  has to be a class tuna
+p.tuna{color:green;} has to be class tuna AND a paragraph 
+p[name]{color:pink;} any paragraph that also has an attribute "name"; any name!
+p[name="bucky"]{color:pink;} any paragraph that also has an attribute name="bucky"
+p[name^="bacon"]{color:orange;} any paragraph that also has an attribute name that starts with "bacon"
+p[name$="bacon"]{color:orange;} any paragraph that also has an attribute name that ends with "bacon"
+p[name*="bacon"]{color:orange;} any paragraph that also has an attribute name that contains "bacon" regardless of location
+*/
+
+p.tuna{color:green;} 
+p[name]{color:pink;}
+p[name*="bacon"]{color:orange;} 
