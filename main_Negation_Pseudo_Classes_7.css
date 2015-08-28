@@ -10,7 +10,7 @@ p[name*="bacon"]{color:orange;} any paragraph that also has an attribute name th
 p:nth-child(3){color:green} the third child of a group of paragraphs is green
 p:nth-child(odd){color:green} every other child of a group of paragraphs is green
 * {color:blue;}  every element has blue text
-:not(.bucky){color:red;} negation psuedo class that excludes elements with bucky class and forces red text
+:not(.bucky){color:red;} negation psuedo class that excludes all elements not bucky class and forces red text
 */
 
 * {color:blue;}
