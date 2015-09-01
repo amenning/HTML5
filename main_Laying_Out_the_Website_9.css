@@ -1,0 +1,19 @@
+/*
+#tuna{color:red;}  has to have id of tuna
+.tuna{color:blue;}  has to be a class tuna
+p.tuna{color:green;} has to be class tuna AND a paragraph 
+p[name]{color:pink;} any paragraph that also has an attribute "name"; any name!
+p[name="bucky"]{color:pink;} any paragraph that also has an attribute name="bucky"
+p[name^="bacon"]{color:orange;} any paragraph that also has an attribute name that starts with "bacon"
+p[name$="bacon"]{color:orange;} any paragraph that also has an attribute name that ends with "bacon"
+p[name*="bacon"]{color:orange;} any paragraph that also has an attribute name that contains "bacon" regardless of location
+p:nth-child(3){color:green} the third child of a group of paragraphs is green
+p:nth-child(odd){color:green} every other child of a group of paragraphs is green
+* {color:blue;}  every element has blue text
+:not(.bucky){color:red;} negation psuedo class that excludes all elements not bucky class and forces red text
+div > p {color:green;} make all paragraphs with div label as immediate parent have green text
+p.bucky+p{color:blue;} make any paragraph that follows a paragraph with class bucky; must all share the same parent
+p.bucky~p{color:blue;} make any paragraph that follows at some point a paragraph with class bucky; must all share the same parent, but it doesn’t need to immediately follow; there can be things in between
+*/
+
+
