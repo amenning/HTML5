@@ -1,0 +1,69 @@
+/*
+#tuna{color:red;}  has to have id of tuna
+.tuna{color:blue;}  has to be a class tuna
+p.tuna{color:green;} has to be class tuna AND a paragraph 
+p[name]{color:pink;} any paragraph that also has an attribute "name"; any name!
+p[name="bucky"]{color:pink;} any paragraph that also has an attribute name="bucky"
+p[name^="bacon"]{color:orange;} any paragraph that also has an attribute name that starts with "bacon"
+p[name$="bacon"]{color:orange;} any paragraph that also has an attribute name that ends with "bacon"
+p[name*="bacon"]{color:orange;} any paragraph that also has an attribute name that contains "bacon" regardless of location
+p:nth-child(3){color:green} the third child of a group of paragraphs is green
+p:nth-child(odd){color:green} every other child of a group of paragraphs is green
+* {color:blue;}  every element has blue text
+:not(.bucky){color:red;} negation psuedo class that excludes all elements not bucky class and forces red text
+div > p {color:green;} make all paragraphs with div label as immediate parent have green text
+p.bucky+p{color:blue;} make any paragraph that follows a paragraph with class bucky; must all share the same parent
+p.bucky~p{color:blue;} make any paragraph that follows at some point a paragraph with class bucky; must all share the same parent, but it doesn’t need to immediately follow; there can be things in between
+*/
+ 
+*{
+    /* Forcing the margin and padding of all elements to 0 px; some elements have default margin and paddings larger than 0 px */
+    margin:0px;  
+    padding:0px;
+}
+ 
+h1 {
+    font: bold 20px Tahoma;
+}
+ 
+h2 {
+    font: bold 14px Tahoma;
+}
+ 
+header, secction, footer, aside, nav, article, hgroup{
+    display:block;
+}
+ 
+body{
+    text-align:center;
+}
+
+#big_wrapper{
+	border: 1px solid black;
+	width: 1000px;
+	margin: 20px auto; 
+	text-align: left;
+}
+
+#top_header{
+	background:yellow;
+	border: 1px solid blue;
+	padding: 20px;
+}
+
+#top_menu{
+	background:blue;
+	color:white;
+}
+
+#top_menu li{
+	display:inline-block; /* this will make elements appear left to right*/
+	list-style:none;
+	padding: 5px;
+	font: bold 14px Tahoma;
+}
+
+
+
+
+
