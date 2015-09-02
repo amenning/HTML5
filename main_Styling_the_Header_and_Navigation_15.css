@@ -1,0 +1,75 @@
+/*
+#tuna{color:red;}  has to have id of tuna
+.tuna{color:blue;}  has to be a class tuna
+p.tuna{color:green;} has to be class tuna AND a paragraph 
+p[name]{color:pink;} any paragraph that also has an attribute "name"; any name!
+p[name="bucky"]{color:pink;} any paragraph that also has an attribute name="bucky"
+p[name^="bacon"]{color:orange;} any paragraph that also has an attribute name that starts with "bacon"
+p[name$="bacon"]{color:orange;} any paragraph that also has an attribute name that ends with "bacon"
+p[name*="bacon"]{color:orange;} any paragraph that also has an attribute name that contains "bacon" regardless of location
+p:nth-child(3){color:green} the third child of a group of paragraphs is green
+p:nth-child(odd){color:green} every other child of a group of paragraphs is green
+* {color:blue;}  every element has blue text
+:not(.bucky){color:red;} negation psuedo class that excludes all elements not bucky class and forces red text
+div > p {color:green;} make all paragraphs with div label as immediate parent have green text
+p.bucky+p{color:blue;} make any paragraph that follows a paragraph with class bucky; must all share the same parent
+p.bucky~p{color:blue;} make any paragraph that follows at some point a paragraph with class bucky; must all share the same parent, but it doesn’t need to immediately follow; there can be things in between
+*/
+ 
+ *{
+	 /*reset margin and padding for all elements in webpage to 0*/
+	 margin: 0px;
+	 padding: 0px;
+ }
+ 
+ h1{
+	 font: bold 20px Tahoma;
+ }
+ 
+ h2{
+	 font: bold 14px Tahoma;
+ }
+ 
+ header, section, footer, aside, article, hgroup{
+	 display: block; /* include for compatibility with older browsers*/
+ }
+ 
+ body{
+	 width: 100%; /*need to specify sizes in order to use flexible box style*/
+	 display: -webkit-box; /*specify that you want to use a special resource -webkit-; onlyl works in Chrome!! */
+	 -webkit-box-pack: center; /*Center align boxes, when the website is larger than the contents, just center the content children */
+ }
+
+ #big_wrapper{
+	 max-width: 1000px;
+	 margin: 20px 0px;
+	 display: -webkit-box;
+	 -webkit-box-orient: vertical; /*sets how the children inside are oriented (horizontal or vertical)*/
+	 -webkit-box-flex: 1; /*1 means flexible and 0 means fixed*/
+ }
+
+#top_header{
+	background: yellow;
+	border: 3px solid black;
+	padding: 20px;
+}
+
+#top_menu{
+	border: red;
+	background: blue;
+	color: white;
+}
+
+#top_menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px Tahoma;
+}
+
+
+
+
+
+
+
