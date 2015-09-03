@@ -30,7 +30,7 @@ h2 {
     font: bold 14px Tahoma;
 }
  
-header, secction, footer, aside, nav, article, hgroup{
+header, section, footer, aside, nav, article, hgroup{
     display:block;
 }
  
