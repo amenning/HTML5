@@ -1,0 +1,62 @@
+#mommy{
+	border: 2px solid blue;
+	display:-webkit-box;
+	display:-moz-box;
+	display:box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	box-orient:horizontal;
+	width:700px;
+	/*-webkit-box-pack: center;
+	-moz-box-pack: center;
+	box-pack: center;*/
+	
+}
+
+#kid1{
+	border: 2px solid red;
+	background: green;
+	padding: 20px;
+	margin: 10px;
+	/*-webkit-box-ordinal-group: 3; Put this element into the 3rd position of grouping
+	-moz-box-ordinal-group: 3;
+	box-ordinal-group: 3;*/
+	width:60px;
+
+}
+
+#kid2{
+	border: 2px solid red;
+	background: yellow;
+	padding: 20px;
+	margin: 10px;
+	/*-webkit-box-ordinal-group: 1; Put this element into the 1st position of grouping
+	-moz-box-ordinal-group: 1;
+	box-ordinal-group: 1;*/
+	width:60px;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+}
+
+#kid3{
+	border: 2px solid red;
+	background: red;
+	padding: 20px;
+	margin: 10px;
+	/*-webkit-box-ordinal-group: 4; Put this element into the 4th position of grouping
+	-moz-box-ordinal-group: 4;
+	box-ordinal-group: 4;*/
+	width:60px;
+}
+
+#kid4{
+	border: 2px solid red;
+	background: orange;
+	padding: 20px;
+	margin: 10px;
+	/*-webkit-box-ordinal-group: 2; Put this element into the 2nd position of grouping
+	-moz-box-ordinal-group: 2;
+	box-ordinal-group: 2;*/
+	width:60px;
+	}
