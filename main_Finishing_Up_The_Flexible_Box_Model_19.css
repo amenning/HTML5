@@ -1,0 +1,65 @@
+#mommy{
+	border: 2px solid blue;
+	display:-webkit-box;
+	display:-moz-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	width:700px;
+	/*-webkit-box-pack: center;
+	-moz-box-pack: center;*/
+	height:300px;
+	-webkit-box-align:center; /*vertically align elements in box*/
+	-moz-box-align:center;
+}
+
+#kid1{
+	border: 2px solid red;
+	background: green;
+	padding: 20px;
+	margin: 10px;
+	/*-webkit-box-ordinal-group: 3; Put this element into the 3rd position of grouping
+	-moz-box-ordinal-group: 3;
+	box-ordinal-group: 3;*/
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	height:100px;
+}
+
+#kid2{
+	border: 2px solid red;
+	background: yellow;
+	padding: 20px;
+	margin: 10px;
+	/*-webkit-box-ordinal-group: 1; Put this element into the 1st position of grouping
+	-moz-box-ordinal-group: 1;
+	box-ordinal-group: 1;*/
+	-webkit-box-flex: 2;
+	-moz-box-flex: 2;
+	height:100px;
+}
+
+#kid3{
+	border: 2px solid red;
+	background: red;
+	padding: 20px;
+	margin: 10px;
+	/*-webkit-box-ordinal-group: 4; Put this element into the 4th position of grouping
+	-moz-box-ordinal-group: 4;
+	box-ordinal-group: 4;*/
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	height:100px;
+}
+
+#kid4{
+	border: 2px solid red;
+	background: orange;
+	padding: 20px;
+	margin: 10px;
+	/*-webkit-box-ordinal-group: 2; Put this element into the 2nd position of grouping
+	-moz-box-ordinal-group: 2;
+	box-ordinal-group: 2;*/
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	height:100px;
+	}
