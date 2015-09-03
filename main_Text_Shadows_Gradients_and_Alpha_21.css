@@ -1,0 +1,96 @@
+body{
+	text-align:center;
+}
+
+#box{
+	display:block;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border: 1px solid blue;
+	background:orange;
+	-webkit-border-radius:25px; /*The higher the value the more rounded it will be*/
+	-moz-border-radius:25px; 
+	border-radius:25px; 
+	-webkit-box-shadow:rgb(110,110,110) 10px 10px 10px; /*The higher the rgb value, the more white it will be; if all the same number it will be a shades of gray; then off-shift right and down pixels (negative goes left and up); amount of blur; inset*/
+	-moz-box-shadow:rgb(110,110,110) 10px 10px 10px;
+	box-shadow:rgb(110,110,110) 10px 10px 10px;
+}
+	
+#box2{
+	display:block;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border: 1px solid blue;
+	background:-webkit-linear-gradient(top,black,white);/*start with black at the top and end with white*/
+	background:-moz-linear-gradient(top,black,white);
+	background:linear-gradient(top,black,white);
+	-webkit-border-radius:25px; /*The higher the value the more rounded it will be*/
+	-moz-border-radius:25px; 
+	border-radius:25px; 
+	-webkit-box-shadow:rgb(110,110,110) 10px 10px 10px; /*The higher the rgb value, the more white it will be; if all the same number it will be a shades of gray; then off-shift right and down pixels (negative goes left and up); amount of blur; inset*/
+	-moz-box-shadow:rgb(110,110,110) 10px 10px 10px;
+	box-shadow:rgb(110,110,110) 10px 10px 10px;
+}
+	
+#box3{
+	display:block;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border: 1px solid blue;
+	background:-webkit-linear-gradient(45deg,black,white);/*start with black at the top and end with white*/
+	background:-moz-linear-gradient(45deg,black,white);
+	background:linear-gradient(45deg,black,white);
+	-webkit-border-radius:25px; /*The higher the value the more rounded it will be*/
+	-moz-border-radius:25px; 
+	border-radius:25px; 
+	-webkit-box-shadow:rgb(110,110,110) 10px 10px 10px; /*The higher the rgb value, the more white it will be; if all the same number it will be a shades of gray; then off-shift right and down pixels (negative goes left and up); amount of blur; inset*/
+	-moz-box-shadow:rgb(110,110,110) 10px 10px 10px;
+	box-shadow:rgb(110,110,110) 10px 10px 10px;
+}
+
+#box4{
+	display:block;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border: 1px solid blue;
+	background:-webkit-radial-gradient(center,circle,red 0%, orange 50%);/*start in the center and be a circle; start with red and begin fadding at 0% and then finish by 50% */
+	background:-moz-radial-gradient(center,circle,red 0%, orange 50%);
+	background:radial-gradient(center,circle,red 0%, orange 50%);
+	-webkit-border-radius:25px; /*The higher the value the more rounded it will be*/
+	-moz-border-radius:25px; 
+	border-radius:25px; 
+	-webkit-box-shadow:rgb(110,110,110) 10px 10px 10px; /*The higher the rgb value, the more white it will be; if all the same number it will be a shades of gray; then off-shift right and down pixels (negative goes left and up); amount of blur; inset*/
+	-moz-box-shadow:rgb(110,110,110) 10px 10px 10px;
+	box-shadow:rgb(110,110,110) 10px 10px 10px;
+}
+	
+#box5{
+	display:block;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border: 1px solid blue;
+	background:-webkit-radial-gradient(center,circle,red 0%, orange 50%);/*start in the center and be a circle; start with red and begin fadding at 0% and then finish by 50% */
+	background:-moz-radial-gradient(center,circle,red 0%, orange 50%);
+	background:radial-gradient(center,circle,red 0%, orange 50%);
+	-webkit-border-radius:25px; /*The higher the value the more rounded it will be*/
+	-moz-border-radius:25px; 
+	border-radius:25px; 
+	-webkit-box-shadow:rgb(110,110,110) 10px 10px 10px; /*The higher the rgb value, the more white it will be; if all the same number it will be a shades of gray; then off-shift right and down pixels (negative goes left and up); amount of blur; inset*/
+	-moz-box-shadow:rgb(110,110,110) 10px 10px 10px;
+	box-shadow:rgba(110,110,110, 0.7) 10px 10px 10px; /*the smaller the alpha (transparency) number the lighter it will be*/
+}
+	
+#text{
+	font: bold 30px Century Gothic;
+	text-shadow: rgb(110, 110, 110) 3px 3px 5px;
+}
