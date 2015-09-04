@@ -1,0 +1,72 @@
+body{
+	text-align:center;
+}
+
+#box{
+	display:block;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border: 7px solid blue;
+	background:yellow;
+	outline: 7px solid red; /*A second border around the normal border*/
+	-webkit-transform: scale(1.5);  /*scale the item 1.5 times larger*/
+	transform: scale(1.5);
+}
+
+#box2{
+	display:block;
+	width:500px;
+	margin:300px auto;
+	padding:15px;
+	text-align:center;
+	border: 7px solid blue;
+	background:yellow;
+	outline: 7px solid red; /*A second border around the normal border*/
+	-webkit-transform: scale(-1,3);  /*scale the item 1 times larger in reverse in the x direction and 3 times larger in the y direction*/
+	transform: scale(-1,3);
+}
+
+#box3{
+	display:block;
+	width:500px;
+	margin:300px auto;
+	padding:15px;
+	text-align:center;
+	border: 7px solid blue;
+	background:yellow;
+	outline: 7px solid red; /*A second border around the normal border*/
+	-webkit-transform: rotate(45deg);  /*rotate the element by 45 degrees*/
+	transform: rotate(45deg);
+}
+
+#box4{
+	display:block;
+	width:500px;
+	margin:300px auto;
+	padding:15px;
+	text-align:center;
+	border: 7px solid blue;
+	background:yellow;
+	outline: 7px solid red; /*A second border around the normal border*/
+	-webkit-transform: skew(30deg); /**/
+	transform:skew(30deg);
+}
+
+#box5{
+	display:block;
+	width:500px;
+	margin:300px auto;
+	padding:15px;
+	text-align:center;
+	border: 7px solid blue;
+	background:yellow;
+	outline: 7px solid red; /*A second border around the normal border*/
+	-webkit-transform: rotate(30deg) translate(150px, 300px); /*move element x and y*/	
+	transform: rotate(30deg) translate(150px, 300px);
+}
+
+#text{
+	font: bold 30px Century Gothic;
+}
