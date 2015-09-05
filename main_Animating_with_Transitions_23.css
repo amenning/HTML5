@@ -1,0 +1,24 @@
+body{
+	text-align:center;
+}
+
+#box{
+	display:block;
+	width:500px;
+	margin:150px auto;
+	padding:15px;
+	text-align:center;
+	border: 7px solid blue;
+	background:yellow;
+	-webkit-transition: -webkit-transform 1s; /*animate a transition to a certain property*/
+	transition: transform 1s;
+}
+
+#box:hover{
+	-webkit-transform: rotate(45deg);	
+	transform: rotate(45deg);
+}
+
+#text{
+	font: bold 30px Century Gothic;
+}
